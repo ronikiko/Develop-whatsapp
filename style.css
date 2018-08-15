@@ -38,9 +38,6 @@ body {
     height:40px;
     border-radius: 50%;
 }
-.BtnGroup {
-
-}
 .Menu {
     display: inline-block;
 }
@@ -173,7 +170,6 @@ Time {
 
 
 
-
 .Message {
     background-color: #fff;
     padding:10px;
@@ -235,4 +231,17 @@ Time {
     padding-left: 20px;
      padding-top: 7px;
 }
+
+
+/* Aside shearch bar shearch and arrow icons */
+.Search-input:focus + .Search-icon .fa-search {
+  display: none;
+}
+ .Search-icon .fa-arrow-left {
+    display: none;
+}
+.Search-input:focus  +.Search-icon .fa-arrow-left {
+     display: block;
+ }
+
 
